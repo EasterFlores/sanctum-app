@@ -36,7 +36,7 @@
               id="contact"
               v-model="this.$store.state.patient.contact"
               @input="updateContact"
-              placeholder="Enter Contact"
+              placeholder="Enter Contact No."
               required
             />
           </div>
@@ -46,7 +46,7 @@
               id="email"
               v-model="this.$store.state.patient.email"
               @input="updateEmail"
-              placeholder="Enter Email"
+              placeholder="Enter Email Address"
               required
             />
           </div>

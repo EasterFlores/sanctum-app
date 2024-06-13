@@ -16,7 +16,7 @@
               id="fullname"
               v-model="this.$store.state.appointment.type"
               @input="updateFullName"
-              placeholder="Enter Full Name"
+              placeholder="Enter Full Name."
               required
             />
           </div>
@@ -87,7 +87,7 @@ export default {
           this.$swal.fire({
             title: "Removed!",
             text: "Your appointment has been removed.",
-            icon: "success",
+            icon: "success!",
           });
           this.openClose = !this.openClose;
           this.$emit("update:visible", false);

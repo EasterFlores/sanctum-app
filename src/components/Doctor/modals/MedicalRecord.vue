@@ -16,7 +16,7 @@
               id="fullname"
               v-model="this.$store.state.appointment.type"
               @input="updateFullName"
-              placeholder="Enter Full Name"
+              placeholder="Enter Full Name."
               required
             />
           </div>
@@ -57,7 +57,7 @@ export default {
     async issueMedicalRecord() {
       this.$swal
         .fire({
-          text: "Are you sure you want to issue an medical record this patient?",
+          text: "Are you sure you want to issue an medical record to this patient?",
           icon: "warning",
           showCancelButton: true,
           confirmButtonColor: "#3085d6",

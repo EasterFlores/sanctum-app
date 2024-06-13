@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button class="btn-secondary" @click="CloseModal()">Close</button>
+          <button class="btn-secondary" @click="CloseModal()">Close.</button>
         </div>
       </div>
     </div>

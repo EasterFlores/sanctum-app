@@ -10,7 +10,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-body">
-          <h4>Patient Medical Record</h4>
+          <h4>Patient Medical Records</h4>
           <div class="patient-information" v-if="record">
             <div class="basic-information">
               <h6>Patient Information</h6>

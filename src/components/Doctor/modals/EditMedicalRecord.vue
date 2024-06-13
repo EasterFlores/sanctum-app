@@ -103,7 +103,7 @@ export default {
 
         if (response.status === 200) {
           this.$swal.fire({
-            title: "Success!",
+            title: "Success!!",
             text: response.data.message,
             icon: "success",
           });

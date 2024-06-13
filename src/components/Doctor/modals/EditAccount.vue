@@ -43,7 +43,7 @@
               id="address"
               v-model="this.$store.state.account.address"
               @input="updateAddress"
-              placeholder="Enter Adrress"
+              placeholder="Enter Address"
               required
             />
           </div>
